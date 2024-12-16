@@ -11,12 +11,12 @@ app = Flask(__name__)
 
 
 # load databasedataset===================================
-sym_des = pd.read_csv("D:\shristi\B.tech\Medicine-Recommendation-System-main\dataset\symtoms_df.csv")
-precautions = pd.read_csv("D:\shristi\B.tech\Medicine-Recommendation-System-main\dataset\precautions_df.csv")
-workout = pd.read_csv("D:\shristi\B.tech\Medicine-Recommendation-System-main\dataset\workout_df.csv")
-description = pd.read_csv("D:\shristi\B.tech\Medicine-Recommendation-System-main\dataset\description.csv")
-medications = pd.read_csv('D:\shristi\B.tech\Medicine-Recommendation-System-main\dataset\medications.csv')
-diets = pd.read_csv("D:\shristi\B.tech\Medicine-Recommendation-System-main\dataset\diets.csv")
+sym_des = pd.read_csv("dataset/symtoms_df.csv")
+precautions = pd.read_csv("dataset/precautions_df.csv")
+workout = pd.read_csv("dataset/workout_df.csv")
+description = pd.read_csv("dataset/description.csv")
+medications = pd.read_csv('dataset/medications.csv')
+diets = pd.read_csv("dataset/diets.csv")
 
 
 # load model===========================================
